@@ -1,8 +1,24 @@
+import Search from "@/components/search";
+
 const Home = () => {
   return (
     <>
-      <div className="py-20 w-full text-foreground">
-        <div className="container">hero</div>
+      <div className="w-full bg-accent">
+        <div className="container py-32">
+          <div className="mx-auto max-w-full md:max-w-2/3 lg:max-w-1/2">
+            <h1 className="text-foreground text-2xl lg:text-4xl text-center font-semibold">
+              Pronašao si povoljnu cijenu za neki proizvod? Podijeli je s
+              drugima
+            </h1>
+            <p className="text-foreground text-lg text-center mb-4">
+              Stranica gdje možeš pronaći dobre diilove
+            </p>
+            <Search
+              placeholder="Pretraži"
+              className="w-full md:w-2/3 mx-auto bg-foreground py-6 focus:border-none focus-visible:ring-muted-foreground focus:ring-muted-foreground placeholder:text-base"
+            />
+          </div>
+        </div>
       </div>
     </>
   );
