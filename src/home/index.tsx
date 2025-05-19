@@ -15,7 +15,8 @@ const Home = () => {
             </p>
             <Search
               placeholder="Pretraži"
-              className="w-full md:w-2/3 mx-auto bg-foreground py-6 focus:border-none focus-visible:ring-muted-foreground focus:ring-muted-foreground placeholder:text-base"
+              containerClassName="w-full md:w-2/3 mx-auto"
+              className="bg-foreground py-6 focus:border-none focus-visible:ring-muted-foreground focus:ring-muted-foreground placeholder:text-base"
             />
           </div>
         </div>
