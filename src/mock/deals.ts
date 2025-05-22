@@ -4,6 +4,8 @@ export type Deal = {
   link: string;
   price: number;
   originalPrice: number;
+  shop: "shop 12";
+  user: "user1";
   discountPercent: number;
   imageUrl: string;
   category: string;
@@ -17,6 +19,8 @@ export const deals: Deal[] = [
     title: "Wireless Noise Cancelling Headphones",
     price: 89.99,
     originalPrice: 199.99,
+    shop: "shop 12",
+    user: "user1",
     discountPercent: 55,
     imageUrl: "https://via.placeholder.com/200x200?text=Headphones",
     category: "Electronics",
@@ -28,6 +32,8 @@ export const deals: Deal[] = [
     title: "Smartwatch Series 7",
     price: 229.99,
     originalPrice: 399.99,
+    shop: "shop 12",
+    user: "user1",
     discountPercent: 42,
     imageUrl: "https://via.placeholder.com/200x200?text=Smartwatch",
     category: "Wearables",
@@ -39,6 +45,8 @@ export const deals: Deal[] = [
     title: "Ergonomic Office Chair",
     price: 149.0,
     originalPrice: 299.0,
+    shop: "shop 12",
+    user: "user1",
     discountPercent: 50,
     imageUrl: "https://via.placeholder.com/200x200?text=Office+Chair",
     category: "Home & Office",
@@ -50,6 +58,8 @@ export const deals: Deal[] = [
     title: '4K 55" Smart TV',
     price: 349.99,
     originalPrice: 599.99,
+    shop: "shop 12",
+    user: "user1",
     discountPercent: 41,
     imageUrl: "https://via.placeholder.com/200x200?text=Smart+TV",
     category: "Electronics",
@@ -61,6 +71,8 @@ export const deals: Deal[] = [
     title: "Running Shoes - Men's",
     price: 59.99,
     originalPrice: 120.0,
+    shop: "shop 12",
+    user: "user1",
     discountPercent: 50,
     imageUrl: "https://via.placeholder.com/200x200?text=Running+Shoes",
     category: "Sportswear",
@@ -72,6 +84,8 @@ export const deals: Deal[] = [
     title: "Blender with Glass Jar - 1200W",
     price: 39.95,
     originalPrice: 89.95,
+    shop: "shop 12",
+    user: "user1",
     discountPercent: 56,
     imageUrl: "https://via.placeholder.com/200x200?text=Blender",
     category: "Kitchen",
