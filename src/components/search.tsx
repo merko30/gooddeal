@@ -42,7 +42,6 @@ const Search = ({
 
     const fetchDeals = async () => {
       try {
-        // const res = await fetch(`/api/deals?search=${encodeURIComponent(debouncedQuery)}`);
         const data: Deal[] = await getDeals(debouncedValue);
         setDeals(data);
       } catch (err) {

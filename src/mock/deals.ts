@@ -1,6 +1,7 @@
 export type Deal = {
   id: string;
   title: string;
+  link: string;
   price: number;
   originalPrice: number;
   discountPercent: number;
@@ -12,6 +13,7 @@ export type Deal = {
 export const deals: Deal[] = [
   {
     id: "1",
+    link: "https://example.com/deal1",
     title: "Wireless Noise Cancelling Headphones",
     price: 89.99,
     originalPrice: 199.99,
@@ -22,6 +24,7 @@ export const deals: Deal[] = [
   },
   {
     id: "2",
+    link: "https://example.com/deal1",
     title: "Smartwatch Series 7",
     price: 229.99,
     originalPrice: 399.99,
@@ -32,6 +35,7 @@ export const deals: Deal[] = [
   },
   {
     id: "3",
+    link: "https://example.com/deal1",
     title: "Ergonomic Office Chair",
     price: 149.0,
     originalPrice: 299.0,
@@ -42,6 +46,7 @@ export const deals: Deal[] = [
   },
   {
     id: "4",
+    link: "https://example.com/deal1",
     title: '4K 55" Smart TV',
     price: 349.99,
     originalPrice: 599.99,
@@ -52,6 +57,7 @@ export const deals: Deal[] = [
   },
   {
     id: "5",
+    link: "https://example.com/deal1",
     title: "Running Shoes - Men's",
     price: 59.99,
     originalPrice: 120.0,
@@ -62,6 +68,7 @@ export const deals: Deal[] = [
   },
   {
     id: "6",
+    link: "https://example.com/deal1",
     title: "Blender with Glass Jar - 1200W",
     price: 39.95,
     originalPrice: 89.95,
